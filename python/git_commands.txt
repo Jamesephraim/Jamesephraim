@@ -1,0 +1,6 @@
+git init
+git add . 	(.)--> all files and folders
+git commit -m "message"
+git branch -m master
+git remote add orgin https://github.com/Jamesephraim/Android-Projects.git
+git push orgin master
