@@ -9,16 +9,16 @@ class student
     }
     student(String n){
          name=n;
-        System.out.println("Name :"+name);
-        System.out.println("NO :"+RollNo);
+        out.println("Name :"+name);
+        out.println("NO :"+RollNo);
 
     }
     student(String n,int rollNo) {
         name = n;
         RollNo = rollNo;
-        System.out.println("Name :"+name);
+        out.println("Name :"+name);
 
-        System.out.println("NO :"+RollNo);
+        out.println("NO :"+RollNo);
 
     }
 
