@@ -5,6 +5,7 @@ public class array_operations {
 
     void copy_to_another(){
         int src[]={0,1,2,3,4,5,6,7,8,9};
+        System.out.println("\n===================Copy to another Array==============");
         int dst[]= new int[10];   //=Arrays.copyOf(src,src.length);
 
         for (int i=0;i<src.length;i++)
@@ -26,6 +27,7 @@ public class array_operations {
     void sort(){
         int arr[]={4,5,3,7,6,2,0,1};
         int temp,i,j;
+        System.out.println("\n===================Sorting Array==============");
         System.out.println("\n----------------------------------\nBefore Sort :");
         for(int a:arr)
         {
@@ -76,6 +78,7 @@ public class array_operations {
         int a[] ={0,4,3,7,5,6,2,8,9};
         int i,temp;
         int key=60;
+        System.out.println("\n===================Searching Key============");
         for (i=0;i<a.length;i++)
         {
             if(a[i] == key)
@@ -85,7 +88,7 @@ public class array_operations {
                 a[i]=a[i+1];
             }
             else {
-                System.out.println(key+" Not Found !!!");
+                System.out.println("\n"+key+" Not Found !!!");
             }
 
 
@@ -94,6 +97,8 @@ public class array_operations {
 
     public static void main(String[] args) {
         array_operations obj=new array_operations();
+        obj.copy_to_another();
+        obj.sort();
         obj.search();
     }
 }
