@@ -86,7 +86,7 @@ public class array_operations {
                 System.out.print("\n" +key+ " is Found at " +i+ " Position");
             } else if (a[i] != a.length) {
                 a[i]=a[i+1];
-            }
+            } 
             else {
                 System.out.println("\n"+key+" Not Found !!!");
             }
@@ -100,5 +100,6 @@ public class array_operations {
         obj.copy_to_another();
         obj.sort();
         obj.search();
+        //end
     }
 }
